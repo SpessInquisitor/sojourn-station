@@ -93,6 +93,21 @@
 	icon_state = "nudity"
 	body_parts_covered = 0
 	item_state = "nudity"
+	
+/obj/item/clothing/under/pressuresuit
+	species_restricted = list(SPECIES_VOX)
+	name = "vox pressure suit"
+	desc = "A lightly-plated jumpsuit, fitted to an alien frame."
+	icon = 'icons/obj/clothing/uniforms.dmi'
+	icon_override = 'icons/mob/species/vox/uniform.dmi'
+	flags_inv = HIDEGLOVES|HIDESHOES
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+
+/obj/item/clothing/under/pressuresuit/voxcivassistant
+	name = "assistant pressure suit"
+	desc = "A lightly-plated jumpsuit, fitted to an alien frame. Now in classic grey!"
+	icon_state = "vox-civ-assistant"
+	item_state = "vox-civ-assistant"
 
 /*Antagonist Spawn Gear*/
 
